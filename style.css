@@ -1,0 +1,77 @@
+/* General */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  /* Section Titles */
+  h2 {
+    color: #004080;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* Links */
+  a {
+    color: #004080;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #66b2ff;
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  .section {
+    margin: 40px;
+  }
+  
+  /* Project Cards */
+  .project-card {
+    background: #f9f9f9;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Download Resume Button */
+  .download-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #003366;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .download-button:hover {
+    background-color: #004080;
+  }
+  
