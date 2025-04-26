@@ -1,0 +1,90 @@
+/* General */
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: #E6E6FA; /* Lilac */
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    overflow-x: hidden;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #5D3FD3, #87CEEB);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 4em;
+    animation: fadeInDown 1.5s ease-out;
+  }
+  
+  h2 {
+    color: #5D3FD3;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    animation: fadeInUp 1.5s ease-out;
+  }
+  
+  /* Section */
+  .section {
+    padding: 50px 20px;
+  }
+  
+  /* Animations */
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Floating Clouds */
+  .cloud {
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    animation: floatClouds 60s linear infinite;
+  }
+  
+  @keyframes floatClouds {
+    0% { left: -200px; }
+    100% { left: 100%; }
+  }
+  
+  /* Buttons */
+  .download-button {
+    background-color: #5D3FD3;
+    color: white;
+    padding: 12px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #87CEEB;
+    color: #333333;
+  }
+  
